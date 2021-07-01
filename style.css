@@ -1,0 +1,87 @@
+.whole{
+    background: rgb(243, 243, 243);
+    height:100vh;
+    overflow: hidden;
+    
+}
+.wrapper{
+    height: 70vh;
+    width: 100%;
+    background-image: url(pic-1.jpg);
+    background-size: cover;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: red;
+}
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.details{
+    width: 40%;
+    height: 40vh;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center  ;
+   
+}
+
+.heading{
+    justify-content: center;
+    display: flex;
+
+}
+.heading button{
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.contentTwo{
+    width: 95%;
+    height: 35vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -40px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.contentTwo p{
+    width: 40%;
+    color: rgb(110, 102, 92);
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center  ;
+}
+
+.iconWrapper{
+    margin-top: 100px;
+}
+
+
+
+.contentTwo .iconWrapper .a{
+   
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    margin-top: 40px;
+}
+.contentTwo .iconWrapper p{
+    color: brown;
+    
+}
